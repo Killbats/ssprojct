@@ -1,7 +1,7 @@
 {
   "name": "ssprojc",
   "version": "0.1.0",
-  "homepage": "http://Killbats.github.io/ssprojct",
+  "homepage": "http://Killbats.github.io/home",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.6.2",

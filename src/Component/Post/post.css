@@ -1,0 +1,30 @@
+.postMarg{
+margin:5px;
+}
+
+.cardPost{
+margin: 5px 5px 0px 5px;
+background-color:#3a3b3c;
+border-radius: 15px;
+}
+
+.postInpt{
+width :93%;
+margin: 10px 15px 10px 15px;
+padding: 10px;
+border-radius: 5px;
+background-color: #b0b3b8;
+}
+
+.postBtn{
+width :95%;
+margin: 10px 15px 10px 15px;
+border: 0;
+padding: 10px;
+border-radius: 5px;
+background-color: gray;
+}
+
+::placeholder{
+    color: white;
+}

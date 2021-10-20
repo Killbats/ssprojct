@@ -1,0 +1,21 @@
+.headerMain{
+    background-color:#4476d4; 
+    width:100%;
+    /* margin-top: 10px; */
+    color:  white;
+    height: 55px;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    padding: 1px;
+    /* position: absolute;
+      z-index: 1; */
+  } 
+
+.headerTxt{
+    padding-top:10px;
+    font-family: 'roboto';
+    color:black;
+    font-weight: bold;
+}

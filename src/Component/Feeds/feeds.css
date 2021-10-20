@@ -1,0 +1,17 @@
+.feedsCard{
+    width: 100%;
+    height: 25%;
+}
+
+.cardTable{
+    margin: 5px 5px 0px 5px;
+    background-color: rgb(236, 238, 238);
+}
+
+.midBar{
+    flex:5;
+}
+
+.txtpad{
+    padding: 5px;
+}

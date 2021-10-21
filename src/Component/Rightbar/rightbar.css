@@ -1,5 +1,5 @@
 .rightbar{
     flex:3;
-    border-left: 3px solid #f1f1f1;
-    height:calc(100vh - 50px) ;
+    /* border-left: 3px solid #f1f1f1;
+    height:calc(100vh - 50px) ; */
 }

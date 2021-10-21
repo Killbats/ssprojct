@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import './CSS/HeaderApp.css';
-import Notfound from './Component/notFound/notFound'; 
+import Notfound from './Component/notFound/NotFound'; 
 //import feeds from './Component/Feeds/feeds';
-import Home from './Component/Home/home';
+import Home from './Component/Home/Home';
 
 class App extends Component{
   state = {

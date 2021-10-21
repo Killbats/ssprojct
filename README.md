@@ -1,4 +1,5 @@
-#################################################################################################################################################################################
+################################################################################################################################################################################
+
 Halo, saya Leo Chandra mungkin jika dilihat lihat penggunaan Javascript maupun design masihlah kurang karena berhubungan pengalaman penggunaan javascript serta dalam 
 web development saya juga masih kurang jika adanya kesalahan atau kesusahan pada saat membaca codingan saya, saya minta maaf. 
 
@@ -6,7 +7,7 @@ Berikut ini adalah project yang saya buat semaksimal mungkin karena berhubungan 
 belum begitu paham dan masih harus belajar.
 
 
-#################################################################################################################################################################################
+################################################################################################################################################################################
 
 
 ## Available Scripts

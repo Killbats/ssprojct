@@ -1,39 +1,40 @@
-import React,{useState} from "react";
+import React, { Component } from "react";
 import Card from 'react-bootstrap/Card';
 import misk from '../../dummyimg/2559.jpg';
-import Post from "../Post/post";
+import Post from "../Post/Post";
 import './feeds.css';
+import axios from "axios";
 
-function Feeds(){
+class Feeds extends Component {
+    state = { user: [], comment : [] };
 
-    const [state, setData] = useState([]);
+    async componentDidMount(){
+        let data1 = await axios.get('https://jsonplaceholder.typicode.com/posts/');
+        let data2 = await axios.get('https://jsonplaceholder.typicode.com/users/1')
+        
+        console.log(data1);
+        this.setState({user : data1.data, comment : data2.data})
+    }
 
-    const apiGet = () => {
-    fetch("https://jsonplaceholder.typicode.com/todos/1")
-    .then((response) => response.json())
-    .then((json) => {
-        console.log(json);
-        setData(json);
-        });
-};
-    useData(() =>{
-        api.get();
-    },[])
-
-    return(
-
-    <div className="midBar">
-        <Post/>
-        <Card className="cardTable">
-            <div className="txtpad"> Poster Name</div>
-            <a href={misk}>
-                <Card.Img className="feedsCard" variant="top" src={misk}/>
-            <div className="txtpad">Comment</div>
-            </a>
-        </Card>
-        {data.map((item) => (<h1 key={item.id}>{item.title} </h1>))}
-    </div>
-    );
-};
+    render(){
+        return(
+        
+        <div className="midBar">
+            <Post/>
+            <Card className="cardTable">
+{/*                 
+            {this.state.user.map && this.state.comment.map(users,comments => (<div>{users.title} {comments.name}</div>)
+                )} */}
+                <div className="txtpad">{this.state.user.title}</div>
+                <a href={misk}>
+                    <Card.Img className="feedsCard" variant="top" src={misk}/>
+                <div className="txtpad">{this.state.comment.name}</div>
+                </a>
+            </Card>
+        
+        </div>
+        );
+    }
+}
 
 export default Feeds;

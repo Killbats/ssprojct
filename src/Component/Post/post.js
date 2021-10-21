@@ -1,7 +1,7 @@
 import {Card} from 'react-bootstrap';
 import './post.css';
 
-export default function post(){
+export default function Post(){
     return(
         <div className="postMarg">
             <Card className="cardPost">

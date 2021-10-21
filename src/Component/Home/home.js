@@ -1,17 +1,13 @@
 import '../../CSS/HeaderApp.css';
 import Sidebar from '../Sidebar/sidebar';
 import Feeds from '../Feeds/feeds';
-import Rightbar from '../Rightbar/rightbar';
+import Rightbar from '../Rightbar/Rightbar';
 import './home.css';
 
-export default function home(){
+export default function Home(){
     return(
         <div className="layoutSetting">
-            <div>
-                <header className="headerMain">
-                    <div className="headerTxt">SS Media</div>
-                </header>
-            </div>
+            
         <div className="layotContainer">
         <Sidebar/>
         <Feeds/>
